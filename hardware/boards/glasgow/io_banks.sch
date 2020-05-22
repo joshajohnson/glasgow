@@ -92,7 +92,7 @@ QB6
 Text Label 6750 5550 0    50   ~ 0
 QB7
 $Comp
-L power:+3.3V #PWR?
+L glasgow-rescue:+3.3V-power #PWR?
 U 1 1 5C9E33BC
 P 1300 2800
 AR Path="/5C9E33BC" Ref="#PWR?"  Part="1" 
@@ -109,7 +109,7 @@ Addr DAC: 0001100\nAddr ADC: 1010100\nAddr Pull: 0100000
 Wire Wire Line
 	6000 4500 6100 4500
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5C9E33C8
 P 6000 4500
 AR Path="/5C9E33C8" Ref="#PWR?"  Part="1" 
@@ -126,7 +126,7 @@ Addr DAC: 0001101\nAddr ADC: 1010101\nAddr Pull: 0100001
 Wire Wire Line
 	6000 4600 6100 4600
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5C9E33D4
 P 6000 4600
 AR Path="/5C9E33D4" Ref="#PWR?"  Part="1" 
@@ -141,7 +141,7 @@ $EndComp
 Wire Wire Line
 	1300 2850 1300 2800
 $Comp
-L FPGA_Lattice:ICE40HX8K-BG121 U?
+L glasgow-rescue:ICE40HX8K-BG121-FPGA_Lattice U?
 U 2 1 5C9E33E2
 P 4750 4450
 AR Path="/5C9E33E2" Ref="U?"  Part="2" 
@@ -157,7 +157,7 @@ F 6 "Lattice Semiconductor Corporation" H 4750 4450 50  0001 C CNN "Mfg"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FPGA_Lattice:ICE40HX8K-BG121 U?
+L glasgow-rescue:ICE40HX8K-BG121-FPGA_Lattice U?
 U 4 1 5C9E33E9
 P 8250 4200
 AR Path="/5C9E33E9" Ref="U?"  Part="4" 
@@ -173,7 +173,7 @@ F 6 "Lattice Semiconductor Corporation" H 8250 4200 50  0001 C CNN "Mfg"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L glasgow-rescue:+3.3V-power #PWR?
 U 1 1 5C9E33F0
 P 4750 3050
 AR Path="/5C9E33F0" Ref="#PWR?"  Part="1" 
@@ -294,7 +294,7 @@ Wire Wire Line
 Text Label 8500 2450 2    50   ~ 0
 VIO_AUX
 $Comp
-L Connector_Generic:Conn_02x22_Odd_Even J?
+L glasgow-rescue:Conn_02x22_Odd_Even-Connector_Generic J?
 U 1 1 5C9E342D
 P 10000 4300
 AR Path="/5C9E342D" Ref="J?"  Part="1" 
@@ -314,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3300 9700 3600
 $Comp
-L power:+3.3V #PWR?
+L glasgow-rescue:+3.3V-power #PWR?
 U 1 1 5C9E3436
 P 10550 3200
 AR Path="/5C9E3436" Ref="#PWR?"  Part="1" 
@@ -333,7 +333,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 5550 10050 5550
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5C9E343F
 P 10050 5550
 AR Path="/5C9E343F" Ref="#PWR?"  Part="1" 
@@ -479,7 +479,7 @@ Wire Wire Line
 	10400 3400 10400 3500
 Connection ~ 10400 3500
 $Comp
-L Device:LED D?
+L glasgow-rescue:LED-Device D?
 U 1 1 5C9E3491
 P 9800 1050
 AR Path="/5C9E3491" Ref="D?"  Part="1" 
@@ -497,7 +497,7 @@ $EndComp
 Text Notes 9700 900  0    50   ~ 0
 Manually calibrated
 $Comp
-L Device:LED D?
+L glasgow-rescue:LED-Device D?
 U 1 1 5C9E349B
 P 9800 1250
 AR Path="/5C9E349B" Ref="D?"  Part="1" 
@@ -513,7 +513,7 @@ F 6 "led-0603-pnk" H 9800 1250 50  0001 C CNN "1b2-bom-key"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L glasgow-rescue:LED-Device D?
 U 1 1 5C9E34A4
 P 9800 1450
 AR Path="/5C9E34A4" Ref="D?"  Part="1" 
@@ -529,7 +529,7 @@ F 6 "led-0603-wht" H 9800 1450 50  0001 C CNN "1b2-bom-key"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L glasgow-rescue:LED-Device D?
 U 1 1 5C9E34AD
 P 9800 1650
 AR Path="/5C9E34AD" Ref="D?"  Part="1" 
@@ -545,7 +545,7 @@ F 6 "led-0603-pnk" H 9800 1650 50  0001 C CNN "1b2-bom-key"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L glasgow-rescue:LED-Device D?
 U 1 1 5C9E34B6
 P 9800 1850
 AR Path="/5C9E34B6" Ref="D?"  Part="1" 
@@ -574,7 +574,7 @@ Connection ~ 10000 1850
 Wire Wire Line
 	10000 1850 10000 1900
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5C9E34C4
 P 10000 1900
 AR Path="/5C9E34C4" Ref="#PWR?"  Part="1" 
@@ -587,7 +587,7 @@ F 3 "" H 10000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5C9E34D0
 P 9450 1050
 AR Path="/5C9E34D0" Ref="R?"  Part="1" 
@@ -605,7 +605,7 @@ $EndComp
 Wire Wire Line
 	9600 1050 9650 1050
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5C9E34DB
 P 9450 1650
 AR Path="/5C9E34DB" Ref="R?"  Part="1" 
@@ -629,7 +629,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 1850 9600 1850
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5C9E34EB
 P 9450 1850
 AR Path="/5C9E34EB" Ref="R?"  Part="1" 
@@ -645,7 +645,7 @@ F 6 "res-0402-4k7" H 9450 1850 50  0001 C CNN "1b2-bom-key"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5C9E34F4
 P 9450 1250
 AR Path="/5C9E34F4" Ref="R?"  Part="1" 
@@ -661,7 +661,7 @@ F 6 "res-0402-10k" H 9450 1250 50  0001 C CNN "1b2-bom-key"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5C9E34FD
 P 9450 1450
 AR Path="/5C9E34FD" Ref="R?"  Part="1" 
@@ -1041,7 +1041,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4700 6100 4700
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5CDEFF88
 P 2550 4700
 AR Path="/5CDEFF88" Ref="#PWR?"  Part="1" 
@@ -1112,7 +1112,7 @@ DB6
 Text Label 5950 5550 0    50   ~ 0
 DB7
 $Comp
-L Device:C C?
+L glasgow-rescue:C-Device C?
 U 1 1 5CF06543
 P 8850 2650
 AR Path="/5CF06543" Ref="C?"  Part="1" 
@@ -1130,7 +1130,7 @@ $EndComp
 Wire Wire Line
 	8850 2500 8850 2450
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5CF0654D
 P 8850 2800
 AR Path="/5CF0654D" Ref="#PWR?"  Part="1" 
@@ -1347,7 +1347,7 @@ DA6
 Text Label 1800 3950 0    50   ~ 0
 DA7
 $Comp
-L Connector_Generic:Conn_01x03 J10
+L glasgow-rescue:Conn_01x03-Connector_Generic J10
 U 1 1 5C072C23
 P 3450 3550
 F 0 "J10" H 3550 3450 50  0000 L CNN
@@ -1360,7 +1360,7 @@ F 5 "DNP" H 3550 3550 50  0000 L CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5C0F528A
 P 3150 3200
 AR Path="/5C0F528A" Ref="#PWR?"  Part="1" 
@@ -1373,7 +1373,7 @@ F 3 "" H 3150 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L glasgow-rescue:Conn_01x02-Connector_Generic J?
 U 1 1 5C961091
 P 4500 2500
 AR Path="/5C961091" Ref="J?"  Part="1" 
@@ -1389,7 +1389,7 @@ F 6 "conn-th-01in-2-1-hdr-ra" H 4500 2500 50  0001 C CNN "1b2-bom-key"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5C961098
 P 4300 2700
 AR Path="/5C961098" Ref="#PWR?"  Part="1" 
@@ -1404,7 +1404,7 @@ $EndComp
 Text Label 3700 2400 0    50   ~ 0
 ~SYNC
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5C9610A4
 P 1950 2750
 AR Path="/5C9610A4" Ref="R?"  Part="1" 
@@ -1420,7 +1420,7 @@ F 6 "res-0402-1k" H 1950 2750 50  0001 C CNN "1b2-bom-key"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FPGA_Lattice:ICE40HX8K-BG121 U?
+L glasgow-rescue:ICE40HX8K-BG121-FPGA_Lattice U?
 U 1 1 5C9E33DB
 P 1300 4250
 AR Path="/5C9E33DB" Ref="U?"  Part="1" 
@@ -1480,12 +1480,12 @@ Wire Wire Line
 Wire Wire Line
 	9150 1050 9300 1050
 $Comp
-L Logic_LevelTranslator:SN74LVC1T45DRL U32
+L glasgow-rescue:SN74LVC1T45DRL-Logic_LevelTranslator U32
 U 1 1 5CA4F297
 P 2650 2400
 F 0 "U32" H 2850 2850 50  0000 L CNN
 F 1 "SN74LVC1T45DRL" H 2850 2750 50  0000 L CNN
-F 2 "Glasgow:SOT-563" H 2650 1950 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2650 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 1750 1750 50  0001 C CNN
 F 4 "Texas Instruments" H 2650 2400 50  0001 C CNN "Mfg"
 F 5 "SN74LVC1T45DRL" H 2650 2400 50  0001 C CNN "MPN"
@@ -1502,7 +1502,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 2600 2200 2600
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5CBEC27E
 P 2650 2800
 AR Path="/5CBEC27E" Ref="#PWR?"  Part="1" 
@@ -1515,7 +1515,7 @@ F 3 "" H 2650 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L glasgow-rescue:+3.3V-power #PWR?
 U 1 1 5CBEC3EE
 P 2550 1700
 AR Path="/5CBEC3EE" Ref="#PWR?"  Part="1" 
@@ -1528,7 +1528,7 @@ F 3 "" H 2550 1700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5CC04643
 P 1950 2950
 AR Path="/5CC04643" Ref="#PWR?"  Part="1" 
@@ -1554,7 +1554,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2600 2200 5250
 $Comp
-L Device:C C?
+L glasgow-rescue:C-Device C?
 U 1 1 5CCC4D9E
 P 2100 1900
 AR Path="/5CCC4D9E" Ref="C?"  Part="1" 
@@ -1570,7 +1570,7 @@ F 6 "cap-cer-0402-100n" H 2100 1900 50  0001 C CNN "1b2-bom-key"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L glasgow-rescue:GND-power #PWR?
 U 1 1 5CCC4E88
 P 2100 2050
 AR Path="/5CCC4E88" Ref="#PWR?"  Part="1" 
@@ -1600,7 +1600,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 5150 1850 5800
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5CBF4EC8
 P 3250 2400
 AR Path="/5CBF4EC8" Ref="R?"  Part="1" 
@@ -1622,7 +1622,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 3550 2700 3550
 $Comp
-L power:PWR_FLAG #FLG0101
+L glasgow-rescue:PWR_FLAG-power #FLG0101
 U 1 1 5CFF6FB6
 P 8550 2450
 F 0 "#FLG0101" H 8550 2525 50  0001 C CNN
@@ -1636,7 +1636,7 @@ Connection ~ 8550 2450
 Wire Wire Line
 	8550 2450 8850 2450
 $Comp
-L Device:D_Zener D11
+L glasgow-rescue:D_Zener-Device D11
 U 1 1 5D1DFDD1
 P 3650 2550
 F 0 "D11" V 3604 2629 50  0000 L CNN
@@ -1658,7 +1658,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 2700 4300 2700
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5CB2B53C
 P 3650 2150
 AR Path="/5CB2B53C" Ref="R?"  Part="1" 
@@ -1676,7 +1676,7 @@ $EndComp
 Wire Wire Line
 	3650 2300 3650 2400
 $Comp
-L power:+3.3V #PWR?
+L glasgow-rescue:+3.3V-power #PWR?
 U 1 1 5CB44D27
 P 3650 2000
 AR Path="/5CB44D27" Ref="#PWR?"  Part="1" 
@@ -1707,7 +1707,7 @@ Wire Bus Line
 Wire Bus Line
 	2050 5800 3450 5800
 $Comp
-L Device:D_Zener D12
+L glasgow-rescue:D_Zener-Device D12
 U 1 1 5CB8809B
 P 2700 3350
 F 0 "D12" V 2600 3250 50  0000 L CNN
@@ -1722,7 +1722,7 @@ F 7 "DNP" H 2630 3510 50  0000 C CNN "DNP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Zener D13
+L glasgow-rescue:D_Zener-Device D13
 U 1 1 5CB88F58
 P 3000 3350
 F 0 "D13" V 2900 3250 50  0000 L CNN
@@ -1765,7 +1765,7 @@ Wire Wire Line
 Text Notes 3300 3350 0    50   ~ 0
 Auxiliary connector that \nmay be used for exper-\nimenting with addons. \nThere is no guarantee \nthat this connector will\nbe kept in future revisions.
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5CB5DA66
 P 2050 2400
 AR Path="/5CB5DA66" Ref="R?"  Part="1" 
@@ -1783,7 +1783,7 @@ $EndComp
 Wire Wire Line
 	2200 2400 2250 2400
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5CBF65F8
 P 2400 3650
 AR Path="/5CBF65F8" Ref="R?"  Part="1" 
@@ -1799,7 +1799,7 @@ F 6 "res-0402-47" H 2400 3650 50  0001 C CNN "1b2-bom-key"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L glasgow-rescue:R-Device R?
 U 1 1 5CBF658E
 P 2400 3550
 AR Path="/5CBF658E" Ref="R?"  Part="1" 

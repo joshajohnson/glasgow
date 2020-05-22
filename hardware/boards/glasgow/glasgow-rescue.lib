@@ -1,209 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Glasgow_ATECC508A
+# +1V2-power
 #
-DEF Glasgow_ATECC508A U 0 20 Y Y 1 F N
-F0 "U" -300 250 50 H V C CNN
-F1 "Glasgow_ATECC508A" 100 -250 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- DIP*W7.62mm*
- SOIC*3.9x4.9mm*
-$ENDFPLIST
-DRAW
-S -300 200 300 -200 1 1 10 f
-X GND 4 0 -300 100 U 50 50 1 1 W
-X SDA 5 400 100 100 L 50 50 1 1 I
-X SCL 6 400 0 100 L 50 50 1 1 I
-X VCC 8 0 300 100 D 50 50 1 1 W
-X GND 9 0 -300 100 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Glasgow_MG2040
-#
-DEF Glasgow_MG2040 U 0 20 Y Y 1 F N
-F0 "U" -275 -100 50 H V C CNN
-F1 "Glasgow_MG2040" 1050 50 50 V V C CNN
-F2 "" 440 440 50 H I C CNN
-F3 "" 50 75 50 H I C CNN
-$FPLIST
- UDFN?18*5.5x1.5mm*P0.5mm*
-$ENDFPLIST
-DRAW
-C 200 0 5 0 1 0 N
-C -100 0 5 1 1 0 N
-C 0 0 5 1 1 0 N
-C 100 0 5 1 1 0 N
-C 300 0 5 1 1 0 N
-C 400 0 5 1 1 0 N
-C 500 0 5 1 1 0 N
-C 600 0 5 1 1 0 N
-C 700 0 5 1 1 0 N
-C 800 0 5 1 1 0 N
-C 900 0 5 1 1 0 N
-S -200 100 1000 -90 0 1 10 f
-P 2 0 1 0 -100 0 900 0 N
-P 2 0 1 0 200 -60 200 -100 N
-P 2 0 1 0 200 30 200 -30 N
-P 3 0 1 0 170 -60 230 -60 230 -50 N
-P 4 0 1 0 230 -30 170 -30 200 -60 230 -30 N
-P 2 1 1 0 -100 -60 -100 -100 N
-P 2 1 1 0 -100 100 -100 -30 N
-P 2 1 1 0 0 -60 0 -100 N
-P 2 1 1 0 0 30 0 -30 N
-P 2 1 1 0 0 60 0 100 N
-P 2 1 1 0 100 -60 100 -100 N
-P 2 1 1 0 100 100 100 -30 N
-P 2 1 1 0 200 60 200 100 N
-P 2 1 1 0 300 -60 300 -100 N
-P 2 1 1 0 300 100 300 -30 N
-P 2 1 1 0 400 -60 400 -100 N
-P 2 1 1 0 400 30 400 -30 N
-P 2 1 1 0 400 60 400 100 N
-P 2 1 1 0 500 -60 500 -100 N
-P 2 1 1 0 500 100 500 -30 N
-P 2 1 1 0 600 -60 600 -100 N
-P 2 1 1 0 600 0 600 -30 N
-P 2 1 1 0 700 -60 700 -100 N
-P 2 1 1 0 700 100 700 -30 N
-P 2 1 1 0 800 -60 800 -100 N
-P 2 1 1 0 800 100 800 -30 N
-P 2 1 1 0 900 -60 900 -100 N
-P 2 1 1 0 900 100 900 -30 N
-P 3 1 1 0 -130 -60 -70 -60 -70 -50 N
-P 3 1 1 0 -30 -60 30 -60 30 -50 N
-P 3 1 1 0 30 60 -30 60 -30 50 N
-P 3 1 1 0 70 -60 130 -60 130 -50 N
-P 3 1 1 0 230 60 170 60 170 50 N
-P 3 1 1 0 270 -60 330 -60 330 -50 N
-P 3 1 1 0 370 -60 430 -60 430 -50 N
-P 3 1 1 0 430 60 370 60 370 50 N
-P 3 1 1 0 470 -60 530 -60 530 -50 N
-P 3 1 1 0 570 -60 630 -60 630 -50 N
-P 3 1 1 0 670 -60 730 -60 730 -50 N
-P 3 1 1 0 770 -60 830 -60 830 -50 N
-P 3 1 1 0 870 -60 930 -60 930 -50 N
-P 4 1 1 0 -70 -30 -130 -30 -100 -60 -70 -30 N
-P 4 1 1 0 -30 30 30 30 0 60 -30 30 N
-P 4 1 1 0 30 -30 -30 -30 0 -60 30 -30 N
-P 4 1 1 0 130 -30 70 -30 100 -60 130 -30 N
-P 4 1 1 0 170 30 230 30 200 60 170 30 N
-P 4 1 1 0 330 -30 270 -30 300 -60 330 -30 N
-P 4 1 1 0 370 30 430 30 400 60 370 30 N
-P 4 1 1 0 430 -30 370 -30 400 -60 430 -30 N
-P 4 1 1 0 530 -30 470 -30 500 -60 530 -30 N
-P 4 1 1 0 630 -30 570 -30 600 -60 630 -30 N
-P 4 1 1 0 730 -30 670 -30 700 -60 730 -30 N
-P 4 1 1 0 830 -30 770 -30 800 -60 830 -30 N
-P 4 1 1 0 930 -30 870 -30 900 -60 930 -30 N
-X ~ 1 -100 -200 100 U 50 50 1 1 P
-X ~ 10 800 -200 100 U 50 50 1 1 P
-X ~ 11 900 -200 100 U 50 50 1 1 P
-X ~ 12 500 200 100 D 50 50 1 1 P
-X ~ 13 400 200 100 D 50 50 1 1 P
-X ~ 14 300 200 100 D 50 50 1 1 P
-X ~ 15 200 200 100 D 50 50 1 1 P
-X ~ 16 100 200 100 D 50 50 1 1 P
-X ~ 17 0 200 100 D 50 50 1 1 P
-X ~ 18 -100 200 100 D 50 50 1 1 P
-X ~ 19 700 200 100 D 50 50 1 1 P
-X ~ 2 0 -200 100 U 50 50 1 1 P
-X ~ 20 800 200 100 D 50 50 1 1 P
-X ~ 21 900 200 100 D 50 50 1 1 P
-X ~ 3 100 -200 100 U 50 50 1 1 P
-X ~ 4 200 -200 100 U 50 50 1 1 P
-X ~ 5 300 -200 100 U 50 50 1 1 P
-X ~ 6 400 -200 100 U 50 50 1 1 P
-X ~ 7 500 -200 100 U 50 50 1 1 P
-X ~ 8 600 -200 100 U 50 50 1 1 P
-X ~ 9 700 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Glasgow_PCA6408APW
-#
-DEF Glasgow_PCA6408APW U 0 40 Y Y 1 F N
-F0 "U" -350 500 50 H V L CNN
-F1 "Glasgow_PCA6408APW" 100 500 50 H V L CNN
-F2 "" 950 -550 50 H I C CNN
-F3 "" 100 -100 50 H I C CNN
-$FPLIST
- TSSOP*4.4x5mm*P0.65mm*
-$ENDFPLIST
-DRAW
-S -350 -550 250 450 0 1 10 f
-X VDD_I2C 1 -100 600 150 D 50 50 1 1 W
-X P5 10 400 -200 150 L 50 50 1 1 B
-X P6 11 400 -300 150 L 50 50 1 1 B
-X P7 12 400 -400 150 L 50 50 1 1 B
-X ~INT~ 13 -500 100 150 R 50 50 1 1 C
-X SCL 14 -500 300 150 R 50 50 1 1 I
-X SDA 15 -500 200 150 R 50 50 1 1 B
-X VDD_P 16 0 600 150 D 50 50 1 1 W
-X ADDR 2 -500 -400 150 R 50 50 1 1 I
-X ~RESET 3 -500 -100 150 R 50 50 1 1 I
-X P0 4 400 300 150 L 50 50 1 1 B
-X P1 5 400 200 150 L 50 50 1 1 B
-X P2 6 400 100 150 L 50 50 1 1 B
-X P3 7 400 0 150 L 50 50 1 1 B
-X GND 8 0 -700 150 U 50 50 1 1 W
-X P4 9 400 -100 150 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Glasgow_TLV73312PQDRVRQ1
-#
-DEF Glasgow_TLV73312PQDRVRQ1 U 0 10 Y Y 1 F N
-F0 "U" -150 225 50 H V C CNN
-F1 "Glasgow_TLV73312PQDRVRQ1" 0 225 50 H V L CNN
-F2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" 0 325 50 H I C CIN
-F3 "" 0 50 50 H I C CNN
-ALIAS TLV75510PDRVR TLV75512PDRVR TLV75515PDRVR TLV75518PDRVR TLV75519PDRVR TLV75525PDRVR TLV75528PDRVR TLV75529PDRVR TLV75530PDRVR TLV75533PDRVR TLV73310PQDRVRQ1 TLV73311PQDRVRQ1 TLV73312PQDRVRQ1 TLV73315PQDRVRQ1 TLV73318PQDRVRQ1 TLV73325PQDRVRQ1 TLV73328PQDRVRQ1 TLV73333PQDRVRQ1 TLV75709PDRVR TLV75710PDRVR TLV75712PDRVR TLV75715PDRVR TLV75718PDRVR TLV75719PDRVR TLV75725PDRVR TLV75728PDRVR TLV75730PDRVR TLV75733PDRVR TLV75740PDRVR
-$FPLIST
- DFN*1EP*2x2mm*P0.65mm*
-$ENDFPLIST
-DRAW
-S -200 175 200 -200 0 1 10 f
-X OUT 1 300 100 100 L 50 50 1 1 w
-X NC 2 300 0 100 L 50 50 1 1 P
-X GND 3 0 -300 100 U 50 50 1 1 W
-X EN 4 -300 -100 100 R 50 50 1 1 I
-X NC 5 -300 0 100 R 50 50 1 1 P
-X IN 6 -300 100 100 R 50 50 1 1 W
-X GND 7 0 -300 100 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Glasgow_TLV75533PDRVR
-#
-DEF Glasgow_TLV75533PDRVR U 0 10 Y Y 1 F N
-F0 "U" -150 225 50 H V C CNN
-F1 "Glasgow_TLV75533PDRVR" 0 225 50 H V L CNN
-F2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" 0 325 50 H I C CIN
-F3 "" 0 50 50 H I C CNN
-$FPLIST
- DFN*1EP*2x2mm*P0.65mm*
-$ENDFPLIST
-DRAW
-S -200 175 200 -200 0 1 10 f
-X OUT 1 300 100 100 L 50 50 1 1 w
-X NC 2 300 0 100 L 50 50 1 1 P
-X GND 3 0 -300 100 U 50 50 1 1 W
-X EN 4 -300 -100 100 R 50 50 1 1 I
-X NC 5 -300 0 100 R 50 50 1 1 P
-X IN 6 -300 100 100 R 50 50 1 1 W
-X GND 7 0 -300 100 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# glasgow-rescue_+1V2-power
-#
-DEF glasgow-rescue_+1V2-power #PWR 0 0 Y Y 1 F P
+DEF +1V2-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "glasgow-rescue_+1V2-power" 0 140 50 H V C CNN
+F1 "+1V2-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -214,11 +16,11 @@ X +1V2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_+3.3V-power
+# +3.3V-power
 #
-DEF glasgow-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "glasgow-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -229,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_+5V-power
+# +5V-power
 #
-DEF glasgow-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "glasgow-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -244,11 +46,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_ADC081C021CIMM-Analog_ADC
+# ADC081C021CIMM-Analog_ADC
 #
-DEF glasgow-rescue_ADC081C021CIMM-Analog_ADC U 0 20 Y Y 1 F N
+DEF ADC081C021CIMM-Analog_ADC U 0 20 Y Y 1 F N
 F0 "U" 150 450 50 H V C CNN
-F1 "glasgow-rescue_ADC081C021CIMM-Analog_ADC" 400 350 50 H V C CNN
+F1 "ADC081C021CIMM-Analog_ADC" 400 350 50 H V C CNN
 F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 800 -350 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -267,11 +69,11 @@ X SDA 8 400 0 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_C-Device
+# C-Device
 #
-DEF glasgow-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "glasgow-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -285,11 +87,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_CAT24C256-Memory_EEPROM
+# CAT24C256-Memory_EEPROM
 #
-DEF glasgow-rescue_CAT24C256-Memory_EEPROM U 0 20 Y Y 1 F N
+DEF CAT24C256-Memory_EEPROM U 0 20 Y Y 1 F N
 F0 "U" -250 250 50 H V C CNN
-F1 "glasgow-rescue_CAT24C256-Memory_EEPROM" 50 250 50 H V L CNN
+F1 "CAT24C256-Memory_EEPROM" 50 250 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -311,11 +113,11 @@ X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_CAT24M01W-Memory_EEPROM
+# CAT24M01W-Memory_EEPROM
 #
-DEF glasgow-rescue_CAT24M01W-Memory_EEPROM U 0 20 Y Y 1 F N
+DEF CAT24M01W-Memory_EEPROM U 0 20 Y Y 1 F N
 F0 "U" 100 350 50 H V C CNN
-F1 "glasgow-rescue_CAT24M01W-Memory_EEPROM" 250 250 50 H V C CNN
+F1 "CAT24M01W-Memory_EEPROM" 250 250 50 H V C CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 850 -250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -334,11 +136,11 @@ X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_CP-Device
+# CP-Device
 #
-DEF glasgow-rescue_CP-Device C 0 10 N Y 1 F N
+DEF CP-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "glasgow-rescue_CP-Device" 25 -100 50 H V L CNN
+F1 "CP-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -354,11 +156,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_CY7C68013A-56LTX-MCU_Cypress
+# CY7C68013A-56LTX-MCU_Cypress
 #
-DEF glasgow-rescue_CY7C68013A-56LTX-MCU_Cypress U 0 20 Y Y 1 F N
+DEF CY7C68013A-56LTX-MCU_Cypress U 0 20 Y Y 1 F N
 F0 "U" -550 1950 50 H V C CNN
-F1 "glasgow-rescue_CY7C68013A-56LTX-MCU_Cypress" 450 1950 50 H V C CNN
+F1 "CY7C68013A-56LTX-MCU_Cypress" 450 1950 50 H V C CNN
 F2 "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias_TopTented" 0 -2350 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -426,11 +228,11 @@ X D- 9 -700 -400 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_Conn_01x02-Connector_Generic
+# Conn_01x02-Connector_Generic
 #
-DEF glasgow-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "glasgow-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -445,11 +247,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_Conn_01x03-Connector_Generic
+# Conn_01x03-Connector_Generic
 #
-DEF glasgow-rescue_Conn_01x03-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x03-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "glasgow-rescue_Conn_01x03-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x03-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -466,11 +268,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_Conn_01x08-Connector_Generic
+# Conn_01x08-Connector_Generic
 #
-DEF glasgow-rescue_Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x08-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "glasgow-rescue_Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
+F1 "Conn_01x08-Connector_Generic" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -497,11 +299,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_Conn_02x10_Odd_Even-Connector_Generic
+# Conn_02x10_Odd_Even-Connector_Generic
 #
-DEF glasgow-rescue_Conn_02x10_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x10_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 500 50 H V C CNN
-F1 "glasgow-rescue_Conn_02x10_Odd_Even-Connector_Generic" 50 -600 50 H V C CNN
+F1 "Conn_02x10_Odd_Even-Connector_Generic" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -552,11 +354,11 @@ X Pin_9 9 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_Conn_02x22_Odd_Even-Connector_Generic
+# Conn_02x22_Odd_Even-Connector_Generic
 #
-DEF glasgow-rescue_Conn_02x22_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x22_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 1100 50 H V C CNN
-F1 "glasgow-rescue_Conn_02x22_Odd_Even-Connector_Generic" 50 -1200 50 H V C CNN
+F1 "Conn_02x22_Odd_Even-Connector_Generic" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -655,11 +457,11 @@ X Pin_9 9 -200 600 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_Crystal_GND24-Device
+# Crystal_GND24-Device
 #
-DEF glasgow-rescue_Crystal_GND24-Device Y 0 40 Y N 1 F N
+DEF Crystal_GND24-Device Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "glasgow-rescue_Crystal_GND24-Device" 125 125 50 H V L CNN
+F1 "Crystal_GND24-Device" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -682,11 +484,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_DAC081C081CIMK-Analog_DAC
+# DAC081C081CIMK-Analog_DAC
 #
-DEF glasgow-rescue_DAC081C081CIMK-Analog_DAC U 0 20 Y Y 1 F N
+DEF DAC081C081CIMK-Analog_DAC U 0 20 Y Y 1 F N
 F0 "U" 100 350 50 H V C CNN
-F1 "glasgow-rescue_DAC081C081CIMK-Analog_DAC" 350 250 50 H V C CNN
+F1 "DAC081C081CIMK-Analog_DAC" 350 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 650 -250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -703,11 +505,11 @@ X ADR0 6 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_D_Zener-Device
+# D_Zener-Device
 #
-DEF glasgow-rescue_D_Zener-Device D 0 40 N N 1 F N
+DEF D_Zener-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "glasgow-rescue_D_Zener-Device" 0 -100 50 H V C CNN
+F1 "D_Zener-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -725,11 +527,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_Ferrite_Bead-Device
+# Ferrite_Bead-Device
 #
-DEF glasgow-rescue_Ferrite_Bead-Device FB 0 0 N Y 1 F N
+DEF Ferrite_Bead-Device FB 0 0 N Y 1 F N
 F0 "FB" -150 25 50 V V C CNN
-F1 "glasgow-rescue_Ferrite_Bead-Device" 150 0 50 V V C CNN
+F1 "Ferrite_Bead-Device" 150 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -746,11 +548,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_GND-power
+# GND-power
 #
-DEF glasgow-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "glasgow-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -759,11 +561,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_ICE40HX8K-BG121-FPGA_Lattice
+# ICE40HX8K-BG121-FPGA_Lattice
 #
-DEF glasgow-rescue_ICE40HX8K-BG121-FPGA_Lattice U 0 20 Y Y 5 L N
+DEF ICE40HX8K-BG121-FPGA_Lattice U 0 20 Y Y 5 L N
 F0 "U" 100 1750 50 H V C CNN
-F1 "glasgow-rescue_ICE40HX8K-BG121-FPGA_Lattice" 400 1650 50 H V C CNN
+F1 "ICE40HX8K-BG121-FPGA_Lattice" 400 1650 50 H V C CNN
 F2 "Package_BGA:BGA-121_9.0x9.0mm_Layout11x11_P0.8mm_Ball0.4mm_Pad0.35mm_NSMD" 0 -1450 50 H I C CNN
 F3 "" -850 1000 50 H I C CNN
 $FPLIST
@@ -899,11 +701,11 @@ X GNDPLL0 L6 600 0 150 L 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_LED-Device
+# LED-Device
 #
-DEF glasgow-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "glasgow-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -922,11 +724,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_LM3880-Power_Supervisor
+# LM3880-Power_Supervisor
 #
-DEF glasgow-rescue_LM3880-Power_Supervisor U 0 20 Y Y 1 F N
+DEF LM3880-Power_Supervisor U 0 20 Y Y 1 F N
 F0 "U" 50 350 50 H V C CNN
-F1 "glasgow-rescue_LM3880-Power_Supervisor" 150 250 50 H V C CNN
+F1 "LM3880-Power_Supervisor" 150 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 650 -250 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -943,11 +745,11 @@ X FLAG1 6 400 100 100 L 50 50 1 1 C
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_Logo_Open_Hardware_Small-Graphic
+# Logo_Open_Hardware_Small-Graphic
 #
-DEF glasgow-rescue_Logo_Open_Hardware_Small-Graphic #LOGO 0 40 Y Y 1 F N
+DEF Logo_Open_Hardware_Small-Graphic #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 275 50 H I C CNN
-F1 "glasgow-rescue_Logo_Open_Hardware_Small-Graphic" 0 -225 50 H I C CNN
+F1 "Logo_Open_Hardware_Small-Graphic" 0 -225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -955,11 +757,11 @@ P 277 0 1 0 132 -171 130 -170 125 -167 118 -162 109 -156 100 -150 93 -146 88 -14
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_MountingHole_Pad-Mechanical
+# MountingHole_Pad-Mechanical
 #
-DEF glasgow-rescue_MountingHole_Pad-Mechanical H 0 40 N N 1 F N
+DEF MountingHole_Pad-Mechanical H 0 40 N N 1 F N
 F0 "H" 0 250 50 H V C CNN
-F1 "glasgow-rescue_MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
+F1 "MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -971,11 +773,11 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_PWR_FLAG-power
+# PWR_FLAG-power
 #
-DEF glasgow-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "glasgow-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -984,11 +786,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_R-Device
+# R-Device
 #
-DEF glasgow-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "glasgow-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1001,11 +803,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_R_Pack08-Device
+# R_Pack08-Device
 #
-DEF glasgow-rescue_R_Pack08-Device RN 0 0 Y N 1 F N
+DEF R_Pack08-Device RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
-F1 "glasgow-rescue_R_Pack08-Device" 400 0 50 V V C CNN
+F1 "R_Pack08-Device" 400 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1057,11 +859,11 @@ X R8.2 9 300 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_SN74LVC1T45DRL-Logic_LevelTranslator
+# SN74LVC1T45DRL-Logic_LevelTranslator
 #
-DEF glasgow-rescue_SN74LVC1T45DRL-Logic_LevelTranslator U 0 20 Y Y 1 F N
+DEF SN74LVC1T45DRL-Logic_LevelTranslator U 0 20 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "glasgow-rescue_SN74LVC1T45DRL-Logic_LevelTranslator" 150 350 50 H V L CNN
+F1 "SN74LVC1T45DRL-Logic_LevelTranslator" 150 350 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-563" 0 -450 50 H I C CNN
 F3 "" -900 -650 50 H I C CNN
 $FPLIST
@@ -1084,11 +886,11 @@ X VCCB 6 100 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_TPD3S014-Power_Protection
+# TPD3S014-Power_Protection
 #
-DEF glasgow-rescue_TPD3S014-Power_Protection U 0 20 Y Y 1 F N
+DEF TPD3S014-Power_Protection U 0 20 Y Y 1 F N
 F0 "U" -250 250 50 H V C CNN
-F1 "glasgow-rescue_TPD3S014-Power_Protection" 100 250 50 H V C CNN
+F1 "TPD3S014-Power_Protection" 100 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 350 50 H I C CNN
 F3 "" -200 250 50 H I C CNN
 $FPLIST
@@ -1105,11 +907,11 @@ X D2 6 400 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_TPS73101DBV-Regulator_Linear
+# TPS73101DBV-Regulator_Linear
 #
-DEF glasgow-rescue_TPS73101DBV-Regulator_Linear U 0 20 Y Y 1 F N
+DEF TPS73101DBV-Regulator_Linear U 0 20 Y Y 1 F N
 F0 "U" -250 250 50 H V C CNN
-F1 "glasgow-rescue_TPS73101DBV-Regulator_Linear" 0 250 50 H V L CNN
+F1 "TPS73101DBV-Regulator_Linear" 0 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -1125,11 +927,11 @@ X OUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_TestPoint-Connector
+# TestPoint-Connector
 #
-DEF glasgow-rescue_TestPoint-Connector TP 0 30 N N 1 F N
+DEF TestPoint-Connector TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "glasgow-rescue_TestPoint-Connector" 0 200 50 H V C CNN
+F1 "TestPoint-Connector" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -1142,11 +944,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# glasgow-rescue_USB_C_Receptacle_USB2.0-Connector
+# USB_C_Receptacle_USB2.0-Connector
 #
-DEF glasgow-rescue_USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
+DEF USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
 F0 "J" -400 750 50 H V L CNN
-F1 "glasgow-rescue_USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
+F1 "USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
